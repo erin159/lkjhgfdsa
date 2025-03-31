@@ -12,18 +12,8 @@ print(f"3. {options_activity[2]}")
 options_activity = int(input("Enter the number of your chosen actvity:"))
 
 # Chossing Meal options 
-print("Meal options:")
-print("1. Standard")
-print("2. Vegetarian")
-print("3. Dairy-free")
-print("4. No Meat")
-input("Enter the number of your meal choice:")
-
-
-# Meal option 
-meal_option = ["Standard", "Vegetarian", "Dairy-free", "No meal"]
-
-print("Chosse a Meal options")
+meal_option = ["Standard", "Vegetarian", "Dairy-free", "No Meal"]
+print("Choose a Meal options")
 print(f"1. {meal_option[0]}")
 print(f"2. {meal_option[1]}")
 print(f"3. {meal_option[2]}")
