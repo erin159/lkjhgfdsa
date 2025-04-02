@@ -20,4 +20,4 @@ print(f"3. {meal_option[2]}")
 print(f"4. {meal_option[3]}")
 meal_option = int(input("Enter the number of your choice meal"))
 
-print(f"your name is {first_name}, you are {age} years old, the activity you choose was {options}, your meal option you choose was  {meal_option}")
+print(f"your name is {first_name}, you are {age} years old, the activity you choose was {options_activity}, your meal option you choose was  {meal_option}")
