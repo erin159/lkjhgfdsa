@@ -1,7 +1,8 @@
 # First name and age 
 first_name =input("What is your name? ")
 age =input("How old are you? ")
-
+#if age is between 12 and 17 you can do it but if younger or older then that you are too older or young to do it
+if age is
 # Choosing a activity to do 
 options_activity = ["Music Jam Session (2 hours, easy, $5 fee)"," Science Experiments Lab (3 hours, moderate, $10 fee)", "Sport Leadership Training (4 hours, challenging, $12 fee)"]
 # Chooseing a activity 
