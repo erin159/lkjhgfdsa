@@ -23,6 +23,13 @@ elif options_activity == 2:
 elif options_activity == 3:
     fee_activity = 12
 
+if options_activity == 1:
+    name_of_activity = (f"{options_activity[0]}")
+elif options_activity == 2:
+    name_of_activity = (f"{options_activity[1]}")
+elif options_activity == 3:
+    name_of_activity = (f"{options_activity[2]}")
+
 # Chossing Meal options 
 meal_option = ["Standard", "Vegetarian", "Dairy-free", "No Meal"]
 print("Choose a Meal options")
@@ -35,4 +42,13 @@ if meal_option == 1 or meal_option == 2 or meal_option == 3:
     food_fee = 7
 elif meal_option == 4:
     food_fee = 0 
+
+if meal_option == 1:
+    name_of_meal = (f"{meal_option[0]}")
+elif options_activity == 2:
+    name_of_meal = (f"{meal_option[1]}")
+elif options_activity == 3:
+    name_of_meal = (f"{meal_option[2]}")
+
+
 print(f"your name is {first_name}, you are {age} years old, the activity you choose was {options_activity}, your meal option you choose was  {meal_option}. the total cost is ${food_fee + fee_activity}")
