@@ -50,5 +50,12 @@ elif options_activity == 2:
 elif options_activity == 3:
     name_of_meal = (f"{meal_option[2]}")
 
+while True:
+    final_question = input(f"Are you attending? (yes/no): ")
+    final_question = final_question.lower ()
+    if final_question == "yes" or final_question == "no" :
+        break
+    else: 
+        print("Please enter yes or no")
 
 print(f"your name is {first_name}, you are {age} years old, the activity you choose was {options_activity}, your meal option you choose was  {meal_option}. the total cost is ${food_fee + fee_activity}")
